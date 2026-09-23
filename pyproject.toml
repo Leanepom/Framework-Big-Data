@@ -7,7 +7,9 @@ authors = [
     { name = "l-pommier-ece", email = "leane.pommier@edu.ece.fr" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.37.0",
+]
 
 [project.scripts]
 dataset-users = "framework_big_data.dataset_users:main"
