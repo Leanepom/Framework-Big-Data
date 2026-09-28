@@ -2,3 +2,6 @@
 !.gitignore
 !.python-version
 __pycache__/
+
+*.duckdb
+init.sql
